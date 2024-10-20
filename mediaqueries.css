@@ -1,0 +1,164 @@
+@media screen and (width: 1280px){
+    .profile-btn{
+        gap: 2rem;
+    }
+    .projects-div{
+        column-gap: 2rem;
+        grid-template-columns: repeat(3, 30%);
+    }
+    .lower-contact-div{
+        width: 55%;
+    }
+}
+@media only screen and (max-width: 1200px){
+    #desktop-nav{
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+      }
+    .arrow{
+        display: none;
+    }
+    section {
+        height: fit-content;
+        padding-top: 4vh;
+        margin: 0 5%;
+    }
+    #skills, #projects, #contact {
+        margin-top: 2rem;
+        position: static;
+    }
+    #profile{
+        display: block;
+        height: 83vh;
+        padding-top: 4vh;
+    }
+    .profile-pic-div{
+        margin: 0 auto 2rem auto;
+    }
+    .profile-btn{
+        margin-bottom: 2rem;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .about-info{
+        display: block;
+        margin-top: 0rem;
+    }
+    .about-pic-div{
+        margin: 0 auto 2rem auto;
+    }
+    .about-right-bottom-div > p{
+        text-align: justify;
+    }
+    .skills-div{
+        margin-top: 2rem;
+    }
+    .skills-info{
+        grid-template-columns: repeat(2, auto);
+    }
+    .projects-div {
+        margin-top: 2rem;
+        row-gap: 2rem;
+        column-gap: 1rem;
+        grid-template-columns: repeat(2, auto);
+        justify-items: stretch;
+    }
+    .project-img{
+        width: auto;
+    }
+    .project-btn-div button{
+        width: 19rem;
+        font-size: larger;
+    }
+    .lower-contact-div{
+        display: block;
+        width: 95%;
+    }
+    .contact-para {
+        font-size: 3vw;
+    }
+    footer .right-nav{
+        width: 45%;
+    }
+}
+
+@media screen and (width: 1024px){
+    #profile{
+        height: 126vh;
+    }
+    footer{
+        height: 15vh;
+        margin: 5rem 0;
+        gap: 4rem;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    section {
+        height: fit-content;
+        padding-top: 4vh;
+        margin: 0 5%;
+    }
+    #profile{
+        display: block;
+        height: 83vh;
+        padding-top: 4vh;
+    }
+    .profile-pic-div{
+        margin: 0 auto 2rem auto;
+    }
+    .profile-btn{
+        margin-bottom: 2rem;
+    }
+    .about-pic-div{
+        margin: 0 auto 2rem auto;
+    }
+    .about-info{
+        display: block;
+        margin-top: 0rem;
+    }
+    .about-right-top-div{
+        flex-direction: column;
+    }
+    .about-right-bottom-div > p{
+        text-align: justify;
+    }
+    #skills, #projects, #contact {
+        margin-top: 2rem;
+        position: static;
+    }
+    .skills-div{
+        margin-top: 2rem;
+    }
+    .skills-info{
+        grid-template-columns: repeat(1, auto);
+    }
+    .projects-div{
+        grid-template-columns: repeat(1, auto);
+        margin-top: 2rem;
+        row-gap: 2rem;
+    }
+    .lower-contact-div{
+        display: block;
+        width: 95%;
+    }
+    .contact-para {
+        font-size: small;
+    }
+    footer{
+        height: 30vh;
+        gap: 2rem;
+        margin: 5rem 0;
+        justify-content: center;
+    }
+    footer .right-nav {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+    footer > p{
+        text-align: center;
+    }
+}
